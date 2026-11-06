@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="launchers" type="StringList">
+      <label>Apps fixados no Dock, na ordem em que aparecem.</label>
+      <default>preferred://filemanager,preferred://browser,applications:org.kde.konsole.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop</default>
+    </entry>
+    <entry name="iconSize" type="Int">
+      <label>Tamanho dos ícones em pixels (0 = automático, segue a espessura do painel).</label>
+      <default>0</default>
+      <min>0</min>
+      <max>256</max>
+    </entry>
+    <entry name="spacing" type="Int">
+      <label>Espaço entre ícones, em % do tamanho do ícone.</label>
+      <default>16</default>
+      <min>0</min>
+      <max>60</max>
+    </entry>
+    <entry name="magnification" type="Int">
+      <label>Ampliação ao passar o mouse, em %. 0 desliga (padrão do macOS).</label>
+      <default>0</default>
+      <min>0</min>
+      <max>100</max>
+    </entry>
+    <entry name="showIndicators" type="Bool">
+      <label>Mostrar pontos sob apps abertos.</label>
+      <default>true</default>
+    </entry>
+    <entry name="showLabels" type="Bool">
+      <label>Mostrar o nome do app ao passar o mouse.</label>
+      <default>true</default>
+    </entry>
+    <entry name="bounce" type="Bool">
+      <label>Animar ícones ao abrir apps e quando pedem atenção.</label>
+      <default>true</default>
+    </entry>
+    <entry name="activeClickAction" type="Int">
+      <label>Clique no ícone do app em primeiro plano: 0 nada, 1 minimizar, 2 alternar janelas.</label>
+      <default>0</default>
+    </entry>
+    <entry name="showAppsButton" type="Bool">
+      <label>Mostrar o botão Aplicativos no início do Dock.</label>
+      <default>true</default>
+    </entry>
+    <entry name="appsButtonAction" type="Int">
+      <label>Ação do botão Aplicativos: 0 menu de aplicativos, 1 Visão geral, 2 Grade, 3 KRunner.</label>
+      <default>0</default>
+    </entry>
+    <entry name="showTrash" type="Bool">
+      <label>Mostrar a Lixeira no fim do Dock.</label>
+      <default>true</default>
+    </entry>
+    <entry name="uniformTiles" type="Bool">
+      <label>Colocar todos os ícones sobre um bloco de vidro uniforme.</label>
+      <default>false</default>
+    </entry>
+    <entry name="glassMode" type="Int">
+      <label>Fundo: 0 automático, 1 só o tema do painel, 2 vidro próprio do widget.</label>
+      <default>0</default>
+    </entry>
+  </group>
+</kcfg>

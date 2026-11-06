@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Ivan Lucas Schaurich",
+                "Email": "ivanlucasschaurich@gmail.com"
+            }
+        ],
+        "Category": "",
+        "Description": "Painéis, diálogos e dicas em vidro líquido translúcido, no estilo macOS",
+        "EnabledByDefault": true,
+        "Id": "liquid-glass",
+        "License": "GPL-3.0-or-later",
+        "Name": "Liquid Glass",
+        "Version": "1.0.0"
+    },
+    "X-Plasma-API": "5.0",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

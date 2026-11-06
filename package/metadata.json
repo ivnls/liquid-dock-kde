@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Ivan Lucas Schaurich",
+                "Email": "ivanlucasschaurich@gmail.com"
+            }
+        ],
+        "Category": "Windows and Tasks",
+        "Description": "Dock em vidro líquido no estilo macOS: apps fixados e em execução, ampliação, quique de abertura, lixeira e botão Aplicativos",
+        "Icon": "preferences-desktop-icons",
+        "Id": "com.github.liquidglass.dock",
+        "License": "GPL-3.0-or-later",
+        "Name": "Liquid Glass Dock",
+        "Version": "1.0.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.multitasking"
+    ]
+}

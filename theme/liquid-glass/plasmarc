@@ -1,0 +1,13 @@
+; Ajustes de vidro aplicados pelo KWin atrás de painéis e diálogos deste tema.
+; Saturação alta + contraste baixo = a "vibrância" do Liquid Glass.
+[ContrastEffect]
+enabled=true
+contrast=0.15
+intensity=1.15
+saturation=1.9
+
+[BlurBehindEffect]
+enabled=true
+
+[AdaptiveTransparency]
+enabled=true
